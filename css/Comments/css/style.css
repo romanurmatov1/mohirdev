@@ -1,0 +1,33 @@
+/* Universal selector */
+
+* {
+    color: blue;
+}
+
+
+/* Tag selector */
+
+p {
+    color: red;
+}
+
+
+/* Property selector */
+
+[roma] {
+    color: green;
+}
+
+
+/* Class selector */
+
+.roma {
+    color: yellow;
+}
+
+
+/* ID selector */
+
+#roma {
+    color: brown;
+}
