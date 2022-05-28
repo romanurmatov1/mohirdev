@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <style>
+        .field {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Contact me</h3>
+    <form action="contactmphp" method="post">
+        <div class="field">
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname">
+        </div>
+
+        <div class="field">
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+
+        <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10"></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+</body>
+
+</html>
